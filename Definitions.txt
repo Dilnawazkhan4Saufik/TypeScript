@@ -1,0 +1,43 @@
+Class and Interface Difference in TypeScript:
+
+Class:-
+Classes are the fundamental entities used to create reusable components. 
+It is a group of objects which have common properties. It can contain properties
+like fields, methods, constructors, etc.
+
+It is used for object creation, encapsulation for fields, methods.
+
+We can create a class by using the class keyword.
+
+A class cannot disappear during the compilation of code.
+
+A class can be instantiated to create an object.
+
+The methods of a class are used to perform a specific action.
+
+The member of a class can be public, protected, or private.
+
+A class can have a constructor.
+
+A class can extend only one class and can implement any number of the interface.
+_______________________________________________________________________________________________________________________________
+Interface:-
+An Interface defines a structure which acts as a contract in our application.
+It contains only the declaration of the methods and fields, but not the implementation.
+
+It is used to create a structure for an entity.
+
+We can create an interface by using the interface keyword.
+
+Interface completely disappeared during the compilation of code.
+
+An interface cannot be instantiated.
+
+The methods in an interface are purely abstract (the only declaration, not have a body).
+
+The members of an interface are always public.
+
+An interface cannot have a constructor.
+
+An interface can extend more than one interfaces but cannot implement any interface.
+
